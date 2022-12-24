@@ -14,7 +14,7 @@ fm.import_flights('flights.csv')
 
         # E --- Recherches simple d'aéroport 
 
-print(str(fm.airport_find("LAX")))
+# print(str(fm.airport_find("LAX")))
 
         # F ---- Vol direct entre deux aéroports
 
