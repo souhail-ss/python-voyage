@@ -70,7 +70,7 @@ class FlightMap:
         results = []
         for flight in self.flights:
             if flight.src_code == airport_code:
-               results.append(flight)
+               results.append((flight))
                 
         return results
     
@@ -80,6 +80,6 @@ class FlightMap:
         for FiltredFlight in FiltredFlights:
             airport = self.airport_find(FiltredFlight.dst_code)
             if airport !=  None : 
-                results.append(airport)
+                results.append(str(airport))
                 
         return results
